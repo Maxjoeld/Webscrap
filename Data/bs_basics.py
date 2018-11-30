@@ -1,3 +1,4 @@
+from bs4 import BeautifulSoup()
 html = """
 <!DOCTYPE html>
 <html>
@@ -9,3 +10,5 @@ html = """
   
   </body>
 </html>
+"""
+soup = BeautifulSoup(html, "html.parser")
