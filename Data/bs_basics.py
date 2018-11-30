@@ -12,3 +12,4 @@ html = """
 </html>
 """
 soup = BeautifulSoup(html, "html.parser")
+print(soup)
